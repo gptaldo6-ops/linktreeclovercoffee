@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1800" viewBox="0 0 1200 1800" role="img" aria-label="Sample coffee background">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6eee3"/>
+      <stop offset="0.48" stop-color="#efe0cc"/>
+      <stop offset="1" stop-color="#d7bea0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="55%">
+      <stop offset="0" stop-color="#fff8ef" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#fff8ef" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1800" fill="url(#bg)"/>
+  <rect width="1200" height="1800" fill="url(#glow)"/>
+
+  <g opacity="0.18" fill="none" stroke="#6f4e37" stroke-width="4">
+    <path d="M-120 280 C180 130 270 510 570 350 S930 130 1320 260"/>
+    <path d="M-160 1500 C140 1350 310 1660 600 1500 S960 1280 1320 1440"/>
+    <path d="M80 1030 C320 910 450 1140 670 1010 S1030 850 1200 980"/>
+  </g>
+
+  <g opacity="0.2" filter="url(#blur)">
+    <circle cx="170" cy="260" r="150" fill="#8b5e3c"/>
+    <circle cx="1010" cy="420" r="210" fill="#b8895e"/>
+    <circle cx="230" cy="1500" r="260" fill="#c9a27c"/>
+    <circle cx="1060" cy="1430" r="180" fill="#7b563f"/>
+  </g>
+
+  <g opacity="0.16" fill="#4b2e1f">
+    <ellipse cx="980" cy="220" rx="34" ry="58" transform="rotate(35 980 220)"/>
+    <path d="M980 168 C1010 198 1007 247 980 272 C952 244 951 196 980 168Z" fill="#f6eee3" opacity="0.38"/>
+
+    <ellipse cx="145" cy="720" rx="28" ry="48" transform="rotate(-25 145 720)"/>
+    <path d="M145 674 C170 700 168 740 145 766 C121 739 121 700 145 674Z" fill="#f6eee3" opacity="0.38"/>
+
+    <ellipse cx="1040" cy="1110" rx="30" ry="52" transform="rotate(18 1040 1110)"/>
+    <path d="M1040 1060 C1066 1088 1064 1132 1040 1160 C1014 1131 1015 1088 1040 1060Z" fill="#f6eee3" opacity="0.38"/>
+
+    <ellipse cx="360" cy="1310" rx="24" ry="42" transform="rotate(46 360 1310)"/>
+    <path d="M360 1270 C382 1292 380 1328 360 1350 C339 1327 339 1292 360 1270Z" fill="#f6eee3" opacity="0.38"/>
+  </g>
+</svg>
